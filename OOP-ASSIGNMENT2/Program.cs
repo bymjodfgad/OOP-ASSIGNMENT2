@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //cinema
+            Cinema cinema = new Cinema("Trollhättans Biograf", true); //Name and if its open or not. true==open.
+            cinema.DisplayInfo();
         }
     }
 }
